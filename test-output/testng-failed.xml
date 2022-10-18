@@ -3,7 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="harsha.windowhandlings"/>
+      <class name="harsha.links"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="harsha.links">
+        <methods>
+          <include name="AT"/>
+          <include name="beforetest"/>
+          <include name="Testcase2"/>
+        </methods>
+      </class> <!-- harsha.links -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
