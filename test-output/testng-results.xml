@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="73434" started-at="2022-10-18T07:03:03Z" finished-at="2022-10-18T07:04:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="73434" started-at="2022-10-18T07:03:03Z" finished-at="2022-10-18T07:04:16Z">
+      <class name="harsha.windowhandlings">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:harsha.windowhandlings@6b2fad11]" name="beforetest" is-config="true" duration-ms="37166" started-at="2022-10-18T12:33:03Z" finished-at="2022-10-18T12:33:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="Testcase3()[pri:0, instance:harsha.windowhandlings@6b2fad11]" name="Testcase3" duration-ms="33183" started-at="2022-10-18T12:33:40Z" finished-at="2022-10-18T12:34:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase3 -->
+        <test-method status="PASS" signature="AT()[pri:0, instance:harsha.windowhandlings@6b2fad11]" name="AT" is-config="true" duration-ms="3007" started-at="2022-10-18T12:34:13Z" finished-at="2022-10-18T12:34:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AT -->
+      </class> <!-- harsha.windowhandlings -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
